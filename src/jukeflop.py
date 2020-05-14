@@ -20,7 +20,9 @@ class JukeFlop():
         if self.cmd == 'test':
             self.run_test()
         elif self.cmd == 'play':
-            print('would do the play funciton here')
+            print('play funciton goes here')
+        elif self.cmd == 'stop':
+            print('stop function goes here')
 
 
     def run_test(self):
